@@ -1,6 +1,6 @@
 class Readfile {
 public static void main(String [] args) {
-String fileName = "classlist.txt";
+String fileName = "test.txt";
 
 // String for taking one line at a time
 String line = null;
@@ -18,6 +18,7 @@ try {	//open try
 while((line = bufferedReader.readLine()) != null) {//open while to read in one line at a time
   int count = 0;
   String []lines = new String[100];
+  lines[count]=line;
   System.out.println(lines[count]);
 
   count++;

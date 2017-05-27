@@ -14,4 +14,17 @@ public class Main {
         String command = scanner.nextLine();
     }
 
+
+}
+
+
+    private static void read() {
+        System.out.println("read");
+        read();
+    }
+
+    private static void create() {
+        System.out.println("create");
+        Create();
+    }
 }
