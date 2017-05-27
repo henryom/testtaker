@@ -4,12 +4,12 @@ package com.test;
 import java.util.Scanner;
 import java.lang.Math.random();
 
-public class CreateQuestions{
+public class CreateQuestions extends read{
 public CreateQuestions {
   int total;
   //"array" is the string array of questions
-  for (int i = 0; i < array.length(); i++) {
-    String question = array[i].getText().toString();
+  for (int i = 0; i < lines.length; i++) {
+    String question = lines[i];
     System.out.println(question);
     int A = (int)(Math.random() * 100 + 1);
     int B = (int)(Math.random() * 100 + 1);
