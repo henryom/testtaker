@@ -32,11 +32,11 @@ class Readfile {	//open Readfile
 
 
 			while((line = bufferedReader.readLine()) != null) {//open while to read in one line at a time
+        int count = 0;
+        String []lines = new String[100];
+        System.out.println(lines[count]);
 
-				String[] words = line.split(" ");	//splits the line in to a word array by separating at every space.
-        System.out.println(words)
-
-
+        count++;
 			}	//close while
 			bufferedReader.close();
     }
@@ -49,4 +49,4 @@ class Readfile {	//open Readfile
 			"Error reading file '" + fileName + "'");
 		}	//close catch
 	}	//close main
-}	//close ReedMlab8p1
+}	//close Readfile
