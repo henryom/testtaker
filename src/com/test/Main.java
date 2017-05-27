@@ -31,7 +31,6 @@ public class Main {
     }
 
 
-=======
     private static void read() {
         System.out.println("read");
     }
@@ -40,4 +39,4 @@ public class Main {
         System.out.println("create");
     }
 }
->>>>>>> 516deadfffbc7d7a25917cc900ea7aaaba750921
+
